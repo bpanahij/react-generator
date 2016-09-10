@@ -1,0 +1,68 @@
+{
+  "name": "generator-crm",
+  "version": "0.0.1",
+  "description": "Yeoman generator for using React/Redux with the YOLT CRM",
+  "keywords": [
+    "yeoman-generator",
+    "react",
+    "reactjs",
+    "webpack",
+    "scaffold",
+    "framework",
+    "component",
+    "frontend",
+    "front-end",
+    "app",
+    "yolt",
+    "crm"
+  ],
+  "author": {
+    "name": "Simon Bailey",
+    "email": "simon@newtriks.com",
+    "url": "https://github.com/newtriks"
+  },
+  "contributors": [
+    {
+      "name": "Christian Schilling",
+      "email": "cs@weblogixx.de",
+      "url": "https://github.com/weblogixx"
+    },
+    {
+      "name": "Brian Johnson",
+      "email": "brianj@zillowgroup.com"
+    }
+  ],
+  "main": "generators/app/index.js",
+  "files": [
+    "generators/component",
+    "generators/actions",
+    "utils"
+  ],
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha -w",
+    "release:major": "npm version prerelease && npm publish --tag beta",
+    "release:minor": "npm version prerelease && npm publish --tag beta",
+    "release:patch": "npm version prerelease && npm publish --tag beta"
+  },
+  "dependencies": {
+    "escodegen": "^1.7.0",
+    "esprima": "^2.7.0",
+    "esprima-walk": "^0.1.0",
+    "react-webpack-template": "^2.0.1-0",
+    "underscore.string": "^3.2.2",
+    "yeoman-generator": "^0.23.0",
+    "yeoman-welcome": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2",
+    "yeoman-assert": "^2.1.1",
+    "yeoman-test": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=4.0.0",
+    "iojs": ">=1.1.0"
+  },
+  "license": "MIT"
+}

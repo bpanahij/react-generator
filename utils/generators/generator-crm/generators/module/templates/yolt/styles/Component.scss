@@ -1,0 +1,5 @@
+$paxl: "../../../node_modules/paxl/docs/build/css/screen.css";
+
+.<%= style.className %> {
+  composes: bas from $paxl;
+}

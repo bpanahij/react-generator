@@ -1,0 +1,81 @@
+{
+  "path": {
+    "options": [
+      {
+        "name": "base",
+        "path": "src"
+      },
+      {
+        "name": "action",
+        "path": "src/actions"
+      },
+      {
+        "name": "component",
+        "path": "src/components"
+      },
+      {
+        "name": "module",
+        "path": "src/modules"
+      },
+      {
+        "name": "image",
+        "path": "src/images"
+      },
+      {
+        "name": "source",
+        "path": "src/sources"
+      },
+      {
+        "name": "route",
+        "path": "src/routes"
+      },
+      {
+        "name": "store",
+        "path": "src/store"
+      },
+      {
+        "name": "style",
+        "path": "src/styles"
+      },
+      {
+        "name": "test",
+        "path": "test"
+      },
+      {
+        "name": "dist",
+        "path": "dist"
+      }
+    ]
+  },
+  "postcss": {
+    "options": [
+      {
+        "name": "postcss",
+        "value": "postcss",
+        "packages": [
+          { "name": "postcss", "version": "^5.0.21" },
+          { "name": "postcss-loader", "version": "^0.9.1" }
+        ]
+      }
+    ]
+  },
+  "style": {
+    "options": [
+      {
+        "name": "css",
+        "value": "css",
+        "suffix": ".css"
+      },
+      {
+        "name": "scss",
+        "value": "scss",
+        "suffix": ".scss",
+        "packages": [
+          { "name": "sass-loader", "version": "^3.2.0" },
+          { "name": "node-sass", "version": "^3.7.0" }
+        ]
+      }
+    ],
+    "default": "scss"
+  }
+}
