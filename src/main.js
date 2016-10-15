@@ -4,7 +4,6 @@ import {Router} from 'react-router'
 import {Provider} from 'react-redux'
 import {store, history} from './store'
 import {createRoutes} from './routes'
-import 'isomorphic-fetch'
 
 const MOUNT_NODE = document.getElementById('root');
 const routes = createRoutes(store);

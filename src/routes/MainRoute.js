@@ -1,9 +1,5 @@
-import {Inbox} from '../components/Inbox'
-import {fetchThreads} from '../store/threads/actions'
+import {RobotDonut} from '../components/RobotDonut'
 
 export const MainRoute = (store) => ({
-  component: Inbox,
-  onEnter: (nextState, replace) => {
-    store.dispatch(fetchThreads());
-  }
+  component: RobotDonut
 });
